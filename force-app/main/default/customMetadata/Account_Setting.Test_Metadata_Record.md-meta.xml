@@ -4,6 +4,6 @@
     <protected>false</protected>
     <values>
         <field>Testing_URL__c</field>
-        <value xsi:type="xsd:string">Abc.dev1@gmail.com</value>
+        <value xsi:type="xsd:string">Abc.{!Environment.Test Environment Variable}@gmail.com</value>
     </values>
 </CustomMetadata>
