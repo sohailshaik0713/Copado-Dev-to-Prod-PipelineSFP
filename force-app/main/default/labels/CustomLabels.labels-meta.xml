@@ -5,7 +5,7 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>CL Testing 2</shortDescription>
-        <value>dev1navin</value>
+        <value>{!Environment.EV 2 for custom label - Test_Custom_Label}shaik</value>
     </labels>
     <labels>
         <fullName>CL_Testing_3</fullName>
