@@ -1,0 +1,53 @@
+{
+  "appPageId" : "19fbedf0-59e4-4063-bc7b-62b07659871a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "b06b76c7-deef-4efd-93d2-b1d026e06f5d",
+  "label" : "Group Detail",
+  "regions" : [ {
+    "id" : "2eec7950-cc29-4d00-9731-fff614e7c0dc",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "detailsTabLabel" : "Details",
+        "engagementManagersOnly" : false,
+        "engagementTabLabel" : "Engagement",
+        "feedTabLabel" : "Feed",
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "Related"
+      },
+      "componentName" : "forceCommunity:groupRecordHomeTabs",
+      "id" : "e5776d5a-df5c-4199-b040-a5dac176a0c2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9b0eb838-62d1-4b87-a05c-a800e8edef17",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "b1020f98-f4b6-48d0-aeab-b9672f37e2d3",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "aa8343e4-880e-4b9c-a30b-5e9f744573c6",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "31639794-2076-4c2c-9b9f-915ecd08b0bd",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0F9"
+}
